@@ -1,0 +1,16 @@
+button {
+    height: 20px;
+    width: 200px;
+    margin-right: 5px;
+    color: whitesmoke;
+    border-radius: 5px;
+    
+}
+.start {
+    background-color: green;
+    border: 1px solid green;
+}
+.end {
+    background-color: maroon;
+    border: 1px solid maroon;
+}

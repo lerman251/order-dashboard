@@ -1,0 +1,5 @@
+<button type="button" (click)="startWorkday()" class="start">Start Workday</button>
+<button type="button" (click)="endWorkday()" class="end">End Workday</button>
+<h1>All Orders</h1>
+<app-first-five-orders [orders]="orders.slice(0, 5)"></app-first-five-orders>
+<app-all-other-orders [orders]="orders.slice(5)"></app-all-other-orders>
